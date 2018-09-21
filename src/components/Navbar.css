@@ -1,0 +1,44 @@
+.navbar-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: .5em;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo a:hover {
+    /* text-decoration: underline; */
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 2em;
+}
+
+.links li {
+    padding: 1em;
+    margin: auto;
+}
+
+.links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.links li a:hover {
+    text-decoration: underline;
+}

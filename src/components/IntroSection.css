@@ -1,0 +1,15 @@
+#intro-container {
+  /* display: flex; */
+  border-bottom: 1px solid black;
+  height: 100vh;
+}
+.arrow-down-container {
+  display: flex;
+}
+
+.arrow-down {
+  font-size: 300px;
+  margin: auto;
+  margin-top: 25vh;
+  color: black;
+}
