@@ -1,3 +1,7 @@
 #drips {
-  height: 100vh;
+  /* height: 100vh; */
+}
+
+#drips h4 {
+  margin-bottom: 50px;
 }
