@@ -11,9 +11,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import IntroSection from "./components/IntroSection";
-import DripSuggestion from "./components/DripSuggestion";
+import FormulaSection from "./components/FormulaSection";
 import "./App.css";
 
 class App extends Component {
@@ -31,7 +31,7 @@ class App extends Component {
       <div className="App">
         {/* <Navbar /> */}
         <IntroSection />
-        <DripSuggestion />
+        <FormulaSection />
         <Footer />
       </div>
     );

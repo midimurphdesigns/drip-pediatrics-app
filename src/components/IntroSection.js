@@ -37,7 +37,7 @@ export default class IntroSection extends Component {
         </div>
         </div>
         <div className="arrow-down-container">
-          <a className="arrow-down" href="#drips">
+          <a className="arrow-down" href="#formulas">
             <FontAwesomeIcon className="arrow-down" icon="angle-down" />
           </a>
         </div>
