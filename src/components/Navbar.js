@@ -7,14 +7,14 @@ export default class Navbar extends Component {
     return (
       <div className="navbar-wrapper">
         <h1 className="logo">
-          <a>Drip</a>
+          <a>Enteral Formula Wizard</a>
         </h1>
         <ul className="links">
           <li>
-            <a>Resources</a>
+            <a>Kevin Murphy</a>
           </li>
           <li>
-            <a>Need Help Now</a>
+            <a>Rahul Vaidya</a>
           </li>
         </ul>
       </div>

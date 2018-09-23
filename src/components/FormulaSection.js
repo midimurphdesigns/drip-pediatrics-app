@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
 import DripPicker from "./DripPicker";
-import "./DripSuggestion.css";
+import "./FormulaSection.css";
 
-export default class DripSuggestion extends Component {
+export default class FormulaSection extends Component {
   render() {
     return (
       <div id="drips">

@@ -8,9 +8,9 @@ export default class IntroSection extends Component {
     return (
       <div id="intro-container">
         <div className="top-header">
-          <h1>Welcome to Drip!</h1>
+          <h1>Enteral Fluid Wizard</h1>
           <h3>A Pediatrics Utility App</h3>
-          <h2>Figure out which drip to use in a heart beat</h2>
+          <h2>Figure out which formula to use in a heart beat</h2>
         </div>
         <div className="overview">
           {/* <div className="overview-heading">
@@ -19,7 +19,7 @@ export default class IntroSection extends Component {
           <div className="overview-icon-section">
           <div className="icon">
             <FontAwesomeIcon className="overview-icon" icon="mobile-alt" />
-            <h3>Open Drip Picker App</h3>
+            <h3>Open Formula Wizard</h3>
           </div>
           <FontAwesomeIcon className="arrow-right" icon="arrow-right" />
           <div className="icon">
@@ -32,7 +32,7 @@ export default class IntroSection extends Component {
           <FontAwesomeIcon className="arrow-right" icon="arrow-right" />
           <div className="icon">
             <FontAwesomeIcon className="overview-icon" icon="tint" />
-            <h3>Administor the Correct Drip</h3>
+            <h3>Administor the Correct Formula</h3>
           </div>
         </div>
         </div>

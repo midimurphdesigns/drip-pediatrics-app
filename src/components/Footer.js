@@ -7,7 +7,7 @@ export default class Footer extends Component {
     return (
       <div className="footer-wrapper">
         <h2 className="footer-logo">
-          <a>Drip</a>
+          <a>Enteral Formula Wizard</a>
         </h2>
         <ul className="footer-links">
           <li>
