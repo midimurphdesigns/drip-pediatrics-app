@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import "./IntroSection.css";
+import "./IntroPage.css";
 
-export default class IntroSection extends Component {
+export default class IntroPage extends Component {
   render() {
     return (
       <div id="intro-container">

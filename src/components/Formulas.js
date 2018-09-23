@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
 import FormulaWizard from "./FormulaWizard";
-import "./FormulaSection.css";
+import "./Formulas.css";
 
-export default class FormulaSection extends Component {
+export default class Formulas extends Component {
   render() {
     return (
       <div id="formulas">

@@ -9,11 +9,13 @@ import {
   faMobileAlt,
   faArrowRight
 } from "@fortawesome/free-solid-svg-icons";
+import { Route, withRouter } from "react-router-dom";
 
 import Footer from "./components/Footer";
-// import Navbar from "./components/Navbar";
-import IntroSection from "./components/IntroSection";
-import FormulaSection from "./components/FormulaSection";
+import Navbar from "./components/Navbar";
+import IntroPage from "./components/IntroPage";
+import Formulas from "./components/Formulas";
+import AboutApp from "./components/AboutApp";
 import "./App.css";
 
 class App extends Component {
@@ -29,9 +31,12 @@ class App extends Component {
     );
     return (
       <div className="App">
-        {/* <Navbar /> */}
-        <IntroSection />
-        <FormulaSection />
+        <Navbar />
+        <main>
+          <Route exact path="/" component={IntroPage} />
+          <Route exact path="/formulas" component={Formulas} />
+          <Route exact path="/about" component={AboutApp} />
+        </main>
         <Footer />
       </div>
     );

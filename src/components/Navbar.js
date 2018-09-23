@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 import "./Navbar.css";
 
@@ -7,14 +8,14 @@ export default class Navbar extends Component {
     return (
       <div className="navbar-wrapper">
         <h1 className="logo">
-          <a>Enteral Formula Wizard</a>
+          <Link to="/">Enteral Formula Wizard</Link>
         </h1>
         <ul className="links">
           <li>
-            <a>Kevin Murphy</a>
+            <Link to="/formulas">Formulas</Link>
           </li>
           <li>
-            <a>Rahul Vaidya</a>
+            <Link to="/about">About App</Link>
           </li>
         </ul>
       </div>
