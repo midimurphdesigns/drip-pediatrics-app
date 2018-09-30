@@ -32,7 +32,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <main>
+        <main className='main'>
           <Route exact path="/" component={IntroPage} />
           <Route exact path="/formulas" component={Formulas} />
           <Route exact path="/about" component={AboutApp} />
